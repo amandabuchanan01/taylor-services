@@ -20,7 +20,7 @@ section {
   margin: auto;
 }
 ul {
-  text-align: left;
+  text-align: center;
   padding-left: 20px;
 }
 .gallery img {
@@ -37,6 +37,7 @@ ul {
   background:#333;
   color:#fff;
   text-direction:none;
+  text-align: center;
   boarder-radius:5px
     transition:background 0.3s ease;
 }
