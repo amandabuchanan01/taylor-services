@@ -40,6 +40,10 @@ ul {
   boarder-radius:5px
     transition:background 0.3s ease;
 }
+
+.btn:hover{
+  background:#555;
+}
 form {
   max-width: 500px;
   margin: auto;
