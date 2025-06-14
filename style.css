@@ -45,6 +45,9 @@ ul {
 .btn:hover{
   background:#555;
 }
+.gallery-button {
+  text-align:center;
+}
 form {
   max-width: 500px;
   margin: auto;
