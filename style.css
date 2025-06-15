@@ -95,6 +95,12 @@ ul {
 .gallery-button {
   text-align:center;
 }
+
+}
+.gallery-button h2 {
+  font-weight:normal;
+  font-size:.5em;
+}
 form {
   max-width: 500px;
   margin: auto;
