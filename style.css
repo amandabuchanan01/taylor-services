@@ -84,7 +84,7 @@ font-size: .7 em;
   border-radius: 5px;
   border: 2px solid #ddd;
 }
-.project-section {
+.project-selection {
   padding:60px 20px;
     display:flex;
   flex-wrap:wrap;
