@@ -109,6 +109,9 @@ text-decoration:none;
 .gallery-button p {
   font-weight:normal;
   font-size: .7em;
+  text-align:center;
+  max-width:800px;
+  margin:0 auto;
 }
 .gallery-button a {
   font-weight:normal;
