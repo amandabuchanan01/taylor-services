@@ -125,6 +125,7 @@ text-decoration:none;
 }
 .testimonials {
   text-align:center;
+  white-space:nowrap;
 }
 .star-icon {
     color: gold;
