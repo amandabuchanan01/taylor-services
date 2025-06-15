@@ -87,7 +87,7 @@ font-size: .7 em;
 .project-section {
   padding:60px 20px;
 }
-.gallery {
+.flip-card {
   display:flex;
   flex-wrap:wrap;
   gap:20px;
