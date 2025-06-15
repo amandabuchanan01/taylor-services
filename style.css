@@ -85,7 +85,9 @@ ul {
   color:#fff;
   text-direction:none;
   text-align: center;
-  boarder-radius:5px
+  boarder-radius:5px;
+    font-weight:normal;
+  font-size:.5em;
     transition:background 0.3s ease;
 }
 
@@ -100,6 +102,12 @@ ul {
 .gallery-button h2 {
   font-weight:normal;
   font-size:.5em;
+}
+.testimonials {
+  text-align:center;
+}
+.quote-form {
+  text-align:center;
 }
 form {
   max-width: 500px;
