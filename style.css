@@ -114,9 +114,11 @@ text-decoration:none;
   margin:0 auto;
 }
 .gallery-button a {
-  font-weight:normal;
-  font-size: .7em;
-  text-decoration:none;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
 }
 .testimonials {
   text-align:center;
