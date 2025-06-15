@@ -1,9 +1,12 @@
+/* Base Layout */
 body {
   font-family: 'Segoe UI', sans-serif;
   margin: 0;
   background: #f4f4f4;
   color: #333;
 }
+
+/* Header */
 header {
   background: #000000;
   color: #fff;
@@ -17,202 +20,103 @@ header img {
   width: 120px;
   margin-bottom: 10px;
 }
-section {
-  padding: 40px 20px;
-  max-width: 1000px;
-  margin: auto;
-}
-ul {
-  text-align: center;
-  padding-left: 20px;
-}
-.about {
-  text-align:center;
-  max-width:800px;
-  margin:0 auto;
-}
 
-.about p {
-font-size: .7 em;
-}
-
-.services {
-  text-align: center;
-  padding: 40px 20px;
-}
-
-.service-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 30px;
-  margin-top: 30px;
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.service-item {
-  background: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-  transition: transform 0.2s ease;
-  text-align: center;
-}
-.service-item:hover {
-  transform: translateY(-5px);
-}
-.service-item img {
-  width: 40px;
-  height: 40px;
-  margin-bottom: 10px;
-}
-.service-item p {
-  margin: 0;
-  font-weight: 600;
-}
-.area {
-   text-align: center;
-  padding: 40px 20px;
-}
-  
-
-.gallery img {
-  width: 100%;
-  max-width: 300px;
-  margin: 10px;
-  border-radius: 5px;
-  border: 2px solid #ddd;
-}
-.project-selection {
-  padding:60px 20px;
-    display:flex;
-  flex-wrap:wrap;
-  gap:20px;
-  justify-content: center;
-   width:300px;
-  height:200px;
-  perspective:1000px;}
-
-.page-title{
+/* Page Titles */
+.page-title {
   text-align: center;
   font-size: 1.5em;
   margin-bottom: 40px;
-  color:#333;
+  color: #333;
+}
 
-.flip-inner{
-  position:relative;
-  width:100%;
-  height:200px;
-  perspective:1000px;
-  transition:transform 0.6s;
-  transform-style:preserve-3d;
+/* Project Section */
+.project-selection {
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Flip Gallery Grid */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Flip Card Container */
+.flip-card {
+  width: 300px;
+  height: 200px;
+  perspective: 1000px;
+}
+.flip-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
 }
 .flip-card:hover .flip-inner {
-  transform:rotateY(180deg);
+  transform: rotateY(180deg);
 }
 .flip-front, .flip-back {
-  position:absolute;
-  width:100%;
-  height:100%;
-  backface-visibility:hidden;
-  top:0;
-  left:0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  top: 0;
+  left: 0;
 }
-.flip-front img, .flip-back img {
-width:100%;
-  height:100%;
-  object-fit:cover;
-  boarder-radius:5px;
+.flip-front img,
+.flip-back img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  border: 2px solid #ddd;
 }
 .flip-back {
-  transform:rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
-.btn{
-  display: inline-block;
-  padding:10px 20px;
-  background:#333;
-  color:#fff;
-  text-direction:none;
-  text-align: center;
-  boarder-radius:5px;
-    font-weight:normal;
-  font-size:.5em;
-    transition:background 0.3s ease;
-}
-
-.btn:hover {
-  background:#555;
-  text-decoration:none;
-}
-.gallery-button {
-  text-align:center;
-text-decoration:none;
-  padding:40px
-}
-.gallery-button p {
-  font-weight:normal;
-  font-size: 1em;
-  text-align:center;
-  padding:60px
-  margin:0 auto;
-}
-.gallery-button a {
-    color: #fff;
-    border: none;
-  font-size:1em;
-  text-decoration:none;
-    padding: 10px 10px;
-    cursor: pointer;
-    border-radius: 5px;
-}
-.testimonials {
-  text-align:center;
-  white-space:nowrap;
-}
-.star-icon {
-    color: gold;
-    font-size: 1.2em;
-}
-.quote-form {
-  text-align:center;
-}
-form {
-  max-width: 500px;
-  margin: auto;
-}
-form input, form textarea {
-  width: 100%;
-  margin: 10px 0;
-  padding: 10px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-}
-form button {
-  background: #1a1a1a;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  border-radius: 5px;
-}
-.contact {
-  text-align:center;
-}
-.contact a {
-  display: inline-block;
-  margin: 10px;
-  padding: 10px 20px;
-  background: #333;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-}
+/* Footer */
 footer {
   background: #1a1a1a;
   color: white;
   text-align: center;
   padding: 20px;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #333;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: normal;
+  font-size: 0.9em;
+  transition: background 0.3s ease;
+}
+.btn:hover {
+  background: #555;
+  text-decoration: none;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .flip-card {
+    width: 90%;
+    height: auto;
+  }
+
+  .flip-front img,
+  .flip-back img {
+    height: auto;
+  }
 }
 
