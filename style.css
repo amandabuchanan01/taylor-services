@@ -64,6 +64,11 @@ ul {
   margin: 0;
   font-weight: 600;
 }
+.area {
+   text-align: center;
+  padding: 40px 20px;
+}
+  
 
 .gallery img {
   width: 100%;
