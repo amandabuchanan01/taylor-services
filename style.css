@@ -118,6 +118,10 @@ text-decoration:none;
 .testimonials {
   text-align:center;
 }
+.star-icon {
+    color: gold;
+    font-size: 1.2em;
+}
 .quote-form {
   text-align:center;
 }
