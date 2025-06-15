@@ -33,7 +33,7 @@ ul {
 }
 
 .about p {
-font-size: .8 em;
+font-size: .7 em;
 }
 
 .services {
@@ -100,17 +100,20 @@ font-size: .8 em;
 
 .btn:hover {
   background:#555;
+  text-decoration:none;
 }
 .gallery-button {
   text-align:center;
+text-decoration:none;
 }
 .gallery-button p {
   font-weight:normal;
-  font-size: 1em;
+  font-size: .7em;
 }
 .gallery-button a {
   font-weight:normal;
-  font-size: 1em;
+  font-size: .7em;
+  text-decoration:none;
 }
 .testimonials {
   text-align:center;
