@@ -29,6 +29,10 @@ ul {
   margin:0 auto;
 }
 
+.about p {
+font-size: 1.5em;
+}
+
 .services {
   text-align: center;
   padding: 40px 20px;
