@@ -238,14 +238,30 @@ footer {
 .btn:hover {
   background: #555;
   text-decoration: none;
-}
-
-/* Responsive */
+/* responsive adjustments */
 @media (max-width: 768px) {
-  .flip-card {
-    width: 90%;
-    height: auto;
-  }
+    header h1 {
+        font-size: 2em;
+    }
+    .service-grid {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    }
+    .flip-card {
+        width: 90%;
+        height: auto;
+    }
+    .flip-front img, .flip-back img {
+        height: auto;
+    }
+    .about p {
+        font-size: 1em;
+    }
+    .gallery-button p {
+        font-size: 0.9em;
+    }
+    form {
+        width: 90%;
+    }
 
   .flip-front img,
   .flip-back img {
