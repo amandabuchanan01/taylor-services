@@ -83,6 +83,30 @@ font-size: .7 em;
   text-align:center;
   white-space:nowrap;
 }
+
+}
+.gallery-button {
+  text-align:center;
+text-decoration:none;
+  padding:40px
+}
+.gallery-button p {
+  font-weight:normal;
+  font-size: 1em;
+  text-align:center;
+  padding:40px
+  margin:0 auto;
+}
+.gallery-button a {
+    color: #fff;
+    border: none;
+  font-size:1em;
+  text-decoration:none;
+    padding: 20px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
 .star-icon {
     color: gold;
     font-size: 1.2em;
