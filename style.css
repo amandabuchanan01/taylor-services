@@ -83,11 +83,12 @@ font-size: .7 em;
   text-align:center;
   white-space:nowrap;
 }
-
+.gallery-button {
+ text-align:center;
+  padding:40px 20px;
 }
 .gallery-button h2 {
   text-align:center;
-text-decoration:none;
   padding:40px
 }
 .gallery-button p {
