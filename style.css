@@ -260,6 +260,11 @@ footer {
     .gallery-button p {
         font-size: 0.9em;
     }
+  
+    .testimonials {
+        white-space: normal; /* Allow text wrapping on mobile devices */
+    }
+  
     form {
         width: 90%;
     }
