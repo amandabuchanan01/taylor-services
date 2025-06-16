@@ -35,6 +35,7 @@ ul {
   text-align:center;
   max-width:800px;
   margin: auto;
+    padding: 40px 20px;
 }
 
 .about p {
@@ -87,6 +88,7 @@ font-size: .7 em;
 .testimonials {
   text-align:center;
   white-space:nowrap;
+    padding: 40px 20px;
 }
 .gallery-button {
  text-align:center;
@@ -119,7 +121,7 @@ font-size: .7 em;
 }
 .quote-form {
   text-align:center;
-  padding:40px
+  padding: 40px 20px;
 }
 form {
   max-width: 500px;
