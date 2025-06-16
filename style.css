@@ -264,12 +264,14 @@ footer {
     .flip-front img, .flip-back img {
         height: auto;
     }
-        .area {
+        .gm-style-moc {
     max-width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
 }
+
+   
     .about p {
         font-size: 1em;
     }
