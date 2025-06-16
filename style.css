@@ -84,7 +84,6 @@ font-size: .7 em;
     max-width: 100%;
     height: auto;
 }
-}
 .testimonials {
   text-align:center;
   white-space:nowrap;
@@ -100,7 +99,7 @@ font-size: .7 em;
   font-weight:normal;
   font-size: 1em;
   text-align:center;
-  margin:0 auto;
+  margin: 0 auto 20px auto;
 }
 .gallery-button a {
     color: #fff;
