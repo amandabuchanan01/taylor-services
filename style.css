@@ -252,6 +252,7 @@ footer {
     header h1 {
         font-size: 2em;
     }
+
     .service-grid {
         grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     }
@@ -262,6 +263,12 @@ footer {
     .flip-front img, .flip-back img {
         height: auto;
     }
+        .area {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
     .about p {
         font-size: 1em;
     }
