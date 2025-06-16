@@ -78,9 +78,6 @@ font-size: .7 em;
 .area {
    text-align: center;
   padding: 40px 20px;
-  display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .area img {
