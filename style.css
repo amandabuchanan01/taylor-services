@@ -76,18 +76,28 @@ font-size: .7 em;
   margin: 0;
   font-weight: 600;
 }
-.area h2 {
-    text-align:center;
+.area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     padding: 20px;
 }
 
+.area h2 {
+    margin-bottom: 20px;
+}
+
 .area-item {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  width: 100%;
-  height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.area-item img {
+    max-width: 90%;
+    height: auto;
 }
 
 
@@ -267,15 +277,14 @@ footer {
         height: auto;
     }
     .flip-front img, .flip-back img {
-        height: auto;
+     height: auto;
     }
-    .area {
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
-
    
+    .area-item img {
+        max-width: 100%;
+    }
+
+
     .about p {
         font-size: 1em;
     }
