@@ -102,8 +102,21 @@ font-size: .7 em;
 
 
 .testimonials {
-  text-align:center;
-  padding: 40px 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.testimonial-item {
+    margin-bottom: 20px;
+}
+
+.stars {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 0;
 }
 .gallery-button {
  text-align:center;
