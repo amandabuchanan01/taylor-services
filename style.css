@@ -263,8 +263,8 @@ footer {
     .flip-front img, .flip-back img {
         height: auto;
     }
-        .gm-style {
-    max-width: 100%;
+    .gm-style {
+    max-width: 80%;
     height: auto;
     display: block;
     margin: 0 auto;
