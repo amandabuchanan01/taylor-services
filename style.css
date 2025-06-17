@@ -76,10 +76,16 @@ font-size: .7 em;
   margin: 0;
   font-weight: 600;
 }
-.area {
-    justify-content: center;
-    align-items: center;
+.area h2 {
+    align-text:center;
     padding: 20px;
+}
+
+.area {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
 
 iframe {
